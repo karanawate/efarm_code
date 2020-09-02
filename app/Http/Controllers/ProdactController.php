@@ -31,7 +31,8 @@ class ProdactController extends Controller
         'price' => $request->price,
         'session_id' =>$session_id
     ]);
-       return redirect()->back();
+    //    return redirect()->back();
+    return view('user_register');
 
 }
 public function add_list()
